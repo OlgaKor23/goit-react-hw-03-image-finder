@@ -1,4 +1,4 @@
-.searchbar {
+.Searchbar {
   top: 0;
   left: 0;
   position: sticky;
@@ -17,7 +17,7 @@
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-.searchForm {
+.SearchForm {
   display: flex;
   align-items: center;
   width: 100%;
@@ -27,13 +27,12 @@
   overflow: hidden;
 }
 
-.searchForm_button {
+.SearchForm_button {
   display: inline-block;
-  padding: 0;
   width: 48px;
   height: 48px;
   border: 0;
-  background-image: url("https://image.flaticon.com/icons/svg/149/149852.svg");
+  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,11 +42,11 @@
   outline: none;
 }
 
-.searchForm_button:hover {
+.SearchForm_button:hover {
   opacity: 1;
 }
 
-.searchForm_button_label {
+.SearchForm_button_label {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -59,17 +58,18 @@
   border: 0;
 }
 
-.searchForm_input {
+.SearchForm_input {
   display: inline-block;
   width: 100%;
   font: inherit;
   font-size: 20px;
   border: none;
   outline: none;
-  padding: 0 4px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
-.searchForm_input::placeholder {
+.SearchForm_input::placeholder {
   font: inherit;
   font-size: 18px;
 }
